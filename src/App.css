@@ -1,9 +1,19 @@
+/* https://coolors.co/31393c-2176ff-33a1fd-fdca40-f79824 */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700;900&display=swap');
+
 html {
   font-size: 10px;
 }
 
 * {
   box-sizing: border-box;
+}
+
+body {
+  background-color: #31393C;
+  color: #fff;
+  font-family: 'Noto Sans JP', 'Open Sans', Arial, sans-serif;
 }
 
 .app {
@@ -13,4 +23,6 @@ html {
 
 .app h1 {
   font-size: 5rem;
+  font-weight: 900;
+  text-shadow: 1px 1px 20px #FDCA40;
 }

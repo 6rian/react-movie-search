@@ -1,0 +1,31 @@
+.search-form {
+  max-width: 80%;
+  margin: 0 auto 30px auto;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 10px;
+}
+
+.search-form input,
+.search-form button {
+  border-radius: 20px;
+}
+
+.search-form--query {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.search-form--button {
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #33A1FD;
+  transition: background-color 1s;
+  border: none;
+  box-shadow: 2px 3px 0 #2176FF;
+}
+.search-from--button:hover {
+  background-color: #2176FF;
+}

@@ -1,0 +1,27 @@
+.movie-card {
+  width: 90%;
+  border: 8px solid white;
+  box-shadow: 7px 7px #2176FF;
+  margin: 0 auto 30px auto;
+  font-size: 1.5rem;
+  background-color: #fff;
+  color: #333;
+}
+.movie-card:nth-of-type(odd) {
+  box-shadow: -7px -7px #F79824;
+  margin-bottom: 20px;
+}
+
+.movie-card--image {
+  background-color: #222;
+}
+.movie-card--image img {
+  max-width: 200px;
+  height: auto;
+}
+
+.movie-card--title {
+  font-size: 2.5rem;
+  line-height: 2.7rem;
+  font-weight: 900;
+}

@@ -7,7 +7,9 @@ export default function SearchResults(props) {
     return '';
   }
 
-  const movieCards = props.results.map(movie => <MovieCard key={movie.id} movie={movie} />);
+  const movieCards = props.results
+    .filter(movie => movie.poster_path)
+    .map(movie => <MovieCard key={movie.id} movie={movie} />);
 
   return (
     <div className="search-results">
