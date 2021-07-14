@@ -1,13 +1,23 @@
+import React, {useState} from 'react';
+import SearchForm from './components/SearchForm';
 import './App.css';
 
 function App() {
+  const [query, setQuery] = useState('');
+
+  const handleChange = e => {
+    setQuery(e.target.value);
+  };
+
+  const handleSubmit = e => {
+    e.preventDefault();
+    console.log('submit: ' + query);
+  }
+
   return (
     <div className="app">
       <h1>Movie Search</h1>
-      <form>
-        <input type="search" name="query" />
-        <button type="submit">Search</button>
-      </form>
+      <SearchForm query={query} handleChange={handleChange} handleSubmit={handleSubmit} />
       <div className="search-results">
         <div className="search-results--movie-card">
           <img
