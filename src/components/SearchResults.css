@@ -1,0 +1,8 @@
+.search-results {
+  margin: 2rem auto;
+}
+
+.movie-card--image {
+  max-width: 200px;
+  height: auto;
+}

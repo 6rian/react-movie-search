@@ -14,12 +14,3 @@ html {
 .app h1 {
   font-size: 5rem;
 }
-
-.search-results {
-  margin: 2rem auto;
-}
-
-.search-results--image {
-  max-width: 200px;
-  height: auto;
-}
